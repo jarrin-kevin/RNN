@@ -1,18 +1,39 @@
-# TRABAJO DE CONSULTA - PYTHON INTERMEDIO
-
-
-## Objetivos de aprendizaje
-- Aplicar nuevas habilidades a un problema del mundo real
-- Sintetizar las técnicas aprendidas
+# Redes neuronales recurrentes para procesamiento de lenguaje natural
 
 ## Descripción
-En este proyecto, descubrirá cómo desarrollar un modelo de Deep Learning en la tarea de reconocimiento de dígitos manuscritos del MNIST. Después de completar esta clase sabrá:
-* Cómo cargar MNIST y desarrollar un modelo de red neuronal.
-* Cómo implementar un modelo de Deep Learning avanzado para MNIST.
+En este repositorio, exploramos cómo implementar una red neuronal recurrente (RNN) para la generación de texto, utilizando un enfoque basado en caracteres. 
+La RNN se entrena para predecir el próximo carácter en una secuencia de caracteres, lo que permite generar texto de manera iterativa.
 
-MNIST toma imágenes de dígitos de una variedad de documentos escaneados, normalizados en tamaño y centrados.
-Cada imagen es está dada en blanco y negro con  28×28  píxeles (784 píxeles en total). Se usan 60,000 imágenes para entrenar un modelo y 10,000 imágenes para validarlo.
-Es una tarea de reconocimiento de dígitos. Como tal, hay 10 dígitos (0 a 9) o 10 clases para predecir.
+## Inspiracion y base teorica
+Este proyecto se inspira en el artículo "The Unreasonable Effectiveness of Recurrent Neural Networks" de Andrej Karpathy. 
+Se basa en el modelo propuesto en su artículo y también se refiere al tutorial "Generate text with an RNN" de la web de TensorFlow.
+
+## Implementación del Modelo:
+El enfoque de modelado utilizado aquí es el de un "Character level language model", uno de los modelos pioneros en el procesamiento de texto a nivel de carácter. 
+El modelo consiste en proporcionar una palabra a la RNN y luego pedirle que modele la distribución de probabilidad del siguiente carácter basado en la secuencia de caracteres anteriores. 
+Al repetir el proceso, el modelo puede generar texto carácter a carácter.
+
+## Dataset
+Se utiliza un dataset "de juguete" en este ejemplo, con el propósito didáctico de centrarse en los conceptos de programación y aprendizaje de RNNs. 
+Aunque los resultados del modelo pueden no ser óptimos en términos de calidad del texto generado, el enfoque es demostrativo y educativo.
+Este repositorio busca brindar una introducción práctica a la implementación de redes neuronales recurrentes a nivel de caracteres y su aplicación en la generación de texto. Aunque el enfoque se mantiene didáctico, proporciona una base sólida para explorar y comprender más a fondo el poder de las RNNs en el procesamiento de lenguaje natural.
+
+## Herramientas
+- tensorflow
+- keras
+- numpy
+- os
+- time
+- 
+## Organización de carpetas
+```
+├── RNN.py                  # Archivo principal
+├── src                     # Archivos dataset
+│   ├── fragmento-de-libro  # Pre proceso de datos del mapa clase
+├── img                     # imagenes del repositorio gg
+│   ├── rnn.png
+└── 
+```
 
 ## Funcionamiento
 <div align="center">
