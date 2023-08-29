@@ -37,8 +37,8 @@ Este repositorio busca brindar una introducción práctica a la implementación 
 
 ## Funcionamiento
 <div align="center">
-<a href="https://youtu.be/RotIU6yR_ME" target="_blank">
-<img src="./img/024.png" >
+<a href="https://youtu.be/ACbtv4HB_io" target="_blank">
+<img src="./img/rnnn.png" >
 </a>
 <p>Demostración de funcionamiento</p>
 </div>
