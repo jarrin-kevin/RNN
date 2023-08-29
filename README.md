@@ -31,7 +31,7 @@ Este repositorio busca brindar una introducción práctica a la implementación 
 ├── src                     # Archivos dataset
 │   ├── fragmento-de-libro  # Pre proceso de datos del mapa clase
 ├── img                     # imagenes del repositorio gg
-│   ├── rnn.png
+│   ├── rnnn.png
 └── 
 ```
 
