@@ -27,10 +27,10 @@ Este repositorio busca brindar una introducción práctica a la implementación 
 - 
 ## Organización de carpetas
 ```
-├── RNN.py                  # Archivo principal
-├── src                     # Archivos dataset
-│   ├── fragmento-de-libro  # Pre proceso de datos del mapa clase
-├── img                     # imagenes del repositorio gg
+├── Primera_red_neuronal_con_numpy.ipynb                  # Archivo principal
+├── src                                                   # Archivos dataset
+│   ├── fragmento-de-libro.txt                                 
+├── img                                                   # imagenes del repositorio gg
 │   ├── rnnn.png
 └── 
 ```
